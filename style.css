@@ -199,6 +199,7 @@ p {
 
 .content-container {
     padding: 160px 0;
+    text-align: justify;
 }
 
 .about-me {
@@ -227,4 +228,9 @@ p {
     font-size: 14px;
     text-align: center;
     opacity: 0.7;
+}
+
+.contacts {
+    text-align: justify;
+    font-size: 30px;
 }
