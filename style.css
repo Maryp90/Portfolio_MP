@@ -1,0 +1,217 @@
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #F9F7FE;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --heading-font-family: 'Playfair Display', serif;
+    --default-font-family: 'Poppins', sans-serif;
+}
+
+.nav-link {
+    color: black;
+    opacity: 0.7;
+}
+.active {
+    color: #6c63ff;
+}
+.nav-link:hover {
+    color: #6c63ff;
+}
+.hero-background {
+    background: var(--secondary-color);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.hero {
+    padding: 160px 0;
+}
+
+.hero p {
+    font-family: var(--default-font-family);
+    font-size: 36px;
+    font-weight: bold;
+
+}
+
+.hero h2 {
+    font-family: var(--default-font-family);
+    font-size: 24px;
+    margin-top: 20px;
+    color: #272142;
+}
+
+body{
+    font-family: var(--default-font-family);
+    font-weight: normal;
+}
+
+h1, h2 {
+    font-family: var(--heading-font-family);
+}
+
+h1 {
+    font-size: 96px;
+}
+
+h2 {
+   font-size: 64px;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.btn-branding {
+    background: var(--primary-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 18px 30px;
+}
+
+.btn-branding:hover {
+    border-radius: 4px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.project-description, .about-me {
+    font-size: 16px;
+    color: #272142;
+    opacity: 0.7;
+    line-height: 30px;
+}
+.btn-branding-outline {
+    border-radius: 4px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    width: 200px;
+    font-size: 16px;
+    line-height: 27px;
+    padding: 18px 30px;
+}
+
+.btn-branding-outline:hover {
+    border-radius: 4px;
+    background: var(--primary-color);
+    color: white;
+}
+
+.work-inquiry {
+    padding: 50px 60px;
+    margin-top: 200px;
+}
+
+.work-together {
+    font-size: 18px;
+    color: #272142;
+    opacity: 0.7;
+    line-height: 30px;
+}
+
+.btn-branding-footer {
+    border-radius: 4px;
+    background: var(--primary-color);
+    color: white;
+    width: 200px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 18px 30px;
+}
+
+.btn-branding-footer:hover {
+    border-radius: 4px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.socials {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.social-media-links {
+    width: 40px; 
+    height: 40px;
+    text-decoration: none;
+}
+
+.about-me-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background: none;
+}
+
+.homepage-link {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
+}
+
+.about-me-paragraphs {
+    display: flex;
+    margin: 30px 0;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.about-me-paragraphs p {
+    margin: 10px;
+}
+
+.email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+}
+
+@media (max-width: 960px) {
+    .projects, .about-me-section {
+        padding: 0;
+        text-align: center;
+    }
+    .my-photograph {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 960px) {
+    .email {
+        padding: 0;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+.my-position {
+    font-weight: bold;
+}
+
+.about-me-container {
+    padding: 160px 0;
+}
+
+.about-me {
+    text-align: justify;
+}
+.my-photograph {
+    border-radius: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+}
