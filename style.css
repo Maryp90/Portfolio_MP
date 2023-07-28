@@ -253,3 +253,7 @@ footer .social-media-links a:hover {
     text-align: justify;
     font-size: 30px;
 }
+
+.project-preview {
+    border-radius: 20px;
+}
