@@ -19,11 +19,10 @@
 .hero-background {
     background: var(--secondary-color);
     text-align: center;
-    border-radius: 20px;
 }
 
 .hero {
-    padding: 160px 0;
+    padding: 50px 0;
 }
 
 .hero p {
@@ -104,8 +103,11 @@ p {
 }
 
 .work-inquiry {
-    padding: 50px 60px;
+    padding: 50px 40px;
     margin-top: 200px;
+    background-color: var(--secondary-color);
+    text-align: center;
+    border-radius: 20px;
 }
 
 .work-together {
@@ -195,23 +197,7 @@ footer .social-media-links a:hover {
     text-decoration: none;
 }
 
-@media (max-width: 960px) {
-    .projects, .about-me-section {
-        padding: 0;
-        text-align: center;
-    }
-    .my-photograph {
-        max-width: 400px;
-    }
-}
 
-@media (max-width: 960px) {
-    .email {
-        padding: 0;
-        text-align: center;
-        font-size: 18px;
-    }
-}
 
 .my-position {
     font-weight: bold;
@@ -256,4 +242,36 @@ footer .social-media-links a:hover {
 
 .project-preview {
     border-radius: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .projects, .about-me-section, .workpage-title, .contactpage-title, .contacts {
+        padding: 0;
+        text-align: center;
+    }
+    .my-photograph {
+        max-width: 300px;
+    }
+    h1 {
+        font-size: 46px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .about-me {
+        font-size: 12px;
+        text-align: center;
+    }
+    footer .email-link {
+        padding: 0;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .row {
+        margin: 0;
+    }
+
 }
