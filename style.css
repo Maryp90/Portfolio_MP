@@ -54,11 +54,16 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 96px;
+    font-size: 70px;
 }
 
-h2 {
-   font-size: 64px;
+.app-title {
+   font-size: 45px;
+}
+
+.title-projects {
+    font-size: 50px;
+    color: #6c63ff;
 }
 
 h3 {
